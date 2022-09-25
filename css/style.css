@@ -1,0 +1,356 @@
+html{
+    font-family:Poppins;
+    color:#333
+    forestgreen  16px;
+    background-color: #fff;
+}  
+
+header{
+    min-height:100vh;
+    background : linear-gradient(rgba(0 ,0 ,0, 0.7) ,rgba(0 ,0 ,0 , 0.7))
+        ,  url(../images/hero.jpg);
+
+    background-position:center;
+    background-size: cover;
+}
+nav{
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.long{
+    margin-top: 20px;
+    height: 100px;
+}
+.main-nav{
+    list-style: none;
+}
+.main-nav li {
+    display: inline-block;
+    margin-right: 30px;  
+}
+.main-nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.main-nav li a:hover {
+    color:orange;
+    text-decoration: underline;
+}
+.hero{
+    position: absolute;
+    top: 40%;
+}
+h1{
+    color :white;
+    font-size: 2.5rem;
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-top: 15px;
+}
+.btn{
+      border: solid 1px orange;
+      margin-right: 15px;
+      padding: 8px 20px;
+      border-radius: 10px;
+      color: orange;
+      text-decoration: none;
+}
+.btn:hover{
+    color:white;    
+    background-color:orange;
+
+}
+section{
+    padding: 40px 0px;
+}
+h2{
+    text-align :center;
+    font-size: 1.8rem;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    margin-top: 15px;
+}
+h2::after{
+   display: block;
+   content: "";
+   width: 100px;
+   height: 5px;
+   background-color: orange;
+    margin: 20px auto;
+}
+hr{
+    width: 100px;
+    border: solid 3px orange;
+    background-color: orange;
+
+}
+.features-desc{
+   width: 60%;
+   margin: 20px;
+   text-align: center;
+}
+.features{
+    text-align: center;
+}
+.feature i {
+    color: orange;
+    font-size: 50px;
+}
+.meal{
+    padding: 0px;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img{
+    width: 100%;
+    opacity: .6;
+    transform: scale(1.1);
+    transition:1s;
+}
+
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.work:first-child{
+text-align: right;
+padding-right: 5%;
+}
+.work:first-child img{
+    width: 50%;
+
+}
+.work:first-child{
+    text-align: right ;
+    padding-left: 5%;
+    padding-top: 10px;
+    
+}
+
+.step h4{
+    
+    font-size: 1.2rem;
+    border:solid 2px orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.btn-img{
+    margin-top: 30px;
+}
+
+.work:last-child img{
+    height: 50px;
+} 
+
+.city img{
+    width: 100%;
+}
+.city-info{
+    margin-bottom: 10px;
+}
+.city-info i{
+    color: orange;
+    margin-right: 10px;
+}
+#testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#testimonials i{ 
+    font-size: 50px;
+}
+
+#testimonials p{
+    line-height: 1.5;
+}
+
+#testimonials img{
+    width: 70px;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.price {
+    background-color: #fff;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.price-head {
+    background-color: rgb(249, 249, 249);
+    border-bottom: 1px solid #333;
+    padding: 15px;
+}
+
+h5 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+.price-head .price-des {
+    color: orange;
+    font-size: 50px;
+}
+
+.price-head .price-des span {
+    font-size: 25px;
+}
+
+.price-main {
+    border-bottom: 1px solid #333;
+    padding: 15px;
+}
+.price-main .price-list {
+    list-style: none;
+    padding: 0;
+}
+
+.price-main .price-list li {
+    margin: 20px 0;
+}
+
+.price-main .price-list li i {
+    color: orange;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+.price-footer {
+    background-color: rgb(249, 249, 249);
+    padding: 15px;
+}
+.price-footer a {
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.4s all;
+}
+.price-footer a:hover {
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+}
+
+label {
+    margin-bottom: 4px;
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+
+input[type=text],
+input[type=email],
+select {
+    width: 100%;
+    margin-bottom: 7px;
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: solid 1px #ccc;
+    caret-color: #A3573D;
+}
+
+input[type=checkbox] {
+    margin: 10px 15px;
+}
+
+textarea {
+    width: 100%;
+    caret-color: #A3573D;
+    border-radius: 20px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.714);
+    color: #fff;
+    margin-top: 7px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    width: 30%;
+    border: 2px solid #fff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: orange;
+}
+
+footer {
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.714);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer p {
+    text-align: center;
+    color: #ddd;
+    text-transform: capitalize;
+}
+
+.foot-nav,
+.foot-social {
+    display: flex;
+    list-style: none;
+}
+
+.foot-nav li,
+.foot-social i {
+    margin-right: 20px;
+    color: #ddd;
+}
+
+.foot-nav li a {
+    text-decoration: none;
+    color: #ddd;
+    text-transform: capitalize;
+}
+
+.foot-social {
+    float: right;
+}
+
+.foot-nav li a:hover,
+.foot-social i:hover {
+    text-decoration: underline;
+    color: rgb(189, 101, 0);
+}
+@media screen and  (max-width:550px){
+   .work:first-child{
+    text-align: center;
+    padding-right:1%;
+   } 
+}
